@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/aleksey-suprun/docker-opencv-java.svg?branch=master)](https://travis-ci.org/aleksey-suprun/docker-opencv-java)
+
 # docker-opencv-java
 
 A docker image with OpenCV 3.4 and Oracle JRE 8.
