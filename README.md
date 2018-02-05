@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/aleksey-suprun/docker-opencv-java.svg?branch=master)](https://travis-ci.org/aleksey-suprun/docker-opencv-java)
-[![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/asuprun/docker-opencv-java/)
-[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/_/ubuntu/latest.svg)](https://hub.docker.com/r/asuprun/docker-opencv-java/)
+[![Docker Automated build](https://img.shields.io/docker/automated/asuprun/docker-opencv-java.svg)](https://hub.docker.com/r/asuprun/docker-opencv-java/)
+[![Size](https://shields.beevelop.com/docker/image/image-size/asuprun/docker-opencv-java/latest.svg)](https://hub.docker.com/r/asuprun/docker-opencv-java/)
+[![Layers](https://shields.beevelop.com/docker/image/layers/asuprun/docker-opencv-java/latest.svg)](https://hub.docker.com/r/asuprun/docker-opencv-java/)
 
 # docker-opencv-java
 
