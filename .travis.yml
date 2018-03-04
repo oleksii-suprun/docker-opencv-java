@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-  - docker build -t opencv-java .
+  - docker build -t opencv-java 3.4
