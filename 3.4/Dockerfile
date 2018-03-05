@@ -10,6 +10,9 @@ ENV OPENCV_INSTALL_PREFIX "/usr/local/opencv"
 ENV OPENCV_JAVA_PATH "$OPENCV_INSTALL_PREFIX/share/OpenCV/java"
 
 RUN set -x \
+  && apk add --no-cache libstdc++
+
+RUN set -x \
     && apk add --no-cache --virtual .build-dependencies \
         cmake \
         tar \
