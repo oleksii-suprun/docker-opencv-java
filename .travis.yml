@@ -1,7 +1,15 @@
+language: generic
 sudo: required
 
 services:
   - docker
 
+env:
+  - OPENCV_VERSION=3.4.0
+  - OPENCV_VERSION=3.4.1
+
+matrix:
+  fast_finish: true
+
 script:
-  - docker build -t opencv-java 3.4
+  - docker build -t opencv-java $OPENCV_VERSION
